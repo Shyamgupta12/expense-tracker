@@ -13,7 +13,7 @@ export function errorHandler(
 ): void {
     if (err instanceof ZodError) {
         res.status(400).json({
-            error: "Validation failed",
+            error: "Validation has failed",
             details: err.errors.map((e) => ({
                 field: e.path.join("."),
                 message: e.message,
