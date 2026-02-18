@@ -2,7 +2,7 @@ import axios from "axios";
 import { CreateExpensePayload, Expense, ExpensesResponse } from "../types";
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || "",
+    baseURL: import.meta.env.VITE_API_URL || "http://localhost:4000",
     headers: { "Content-Type": "application/json" },
 });
 
