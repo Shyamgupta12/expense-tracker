@@ -1,5 +1,8 @@
 # Expense Tracker
 
+Production-ready full-stack expense tracking application.
+
+
 A production-quality full-stack expense tracking application built with **Node.js + Express + TypeScript** on the backend and **React + Vite + TypeScript** on the frontend.
 
 ## Features
