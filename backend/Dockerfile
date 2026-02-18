@@ -1,0 +1,33 @@
+# ---------- Builder ----------
+FROM node:20-bookworm-slim AS builder
+
+RUN apt-get update -y && apt-get install -y openssl
+
+WORKDIR /app
+
+COPY package.json package-lock.json* ./
+RUN npm install
+
+COPY prisma ./prisma
+RUN npx prisma generate
+
+COPY tsconfig.json ./
+COPY src ./src
+RUN npm run build
+
+
+# ---------- Runner ----------
+FROM node:20-bookworm-slim AS runner
+
+RUN apt-get update -y && apt-get install -y openssl
+
+WORKDIR /app
+
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/package.json ./
+COPY --from=builder /app/prisma ./prisma
+
+EXPOSE 3001
+
+CMD ["node", "dist/index.js"]

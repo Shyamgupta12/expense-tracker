@@ -1,0 +1,783 @@
+﻿[96msrc/api/expenses.ts[0m:[93m1[0m:[93m19[0m - [91merror[0m[90m TS2307: [0mCannot find module 'axios' or its corresponding type declarations.
+
+[7m1[0m import axios from "axios";
+[7m [0m [91m                  ~~~~~~~[0m
+
+[96msrc/api/expenses.ts[0m:[93m5[0m:[93m26[0m - [91merror[0m[90m TS2339: [0mProperty 'env' does not exist on type 'ImportMeta'.
+
+[7m5[0m     baseURL: import.meta.env.VITE_API_URL || "",
+[7m [0m [91m                         ~~~[0m
+
+[96msrc/App.tsx[0m:[93m1[0m:[93m50[0m - [91merror[0m[90m TS2307: [0mCannot find module 'react' or its corresponding type declarations.
+
+[7m1[0m import { useState, useEffect, useCallback } from "react";
+[7m [0m [91m                                                 ~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m54[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m54[0m         <div className="app">
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m54[0m:[93m9[0m - [91merror[0m[90m TS2875: [0mThis JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+
+[7m 54[0m         <div className="app">
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 55[0m             <header className="app-header">
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 93[0m             </main>
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~[0m
+[7m 94[0m         </div>
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m55[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m55[0m             <header className="app-header">
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m56[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m56[0m                 <div className="header-content">
+[7m  [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m57[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m57[0m                     <div className="header-title">
+[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m58[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m58[0m                         <span className="header-icon">≡ƒÆ░</span>
+[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m58[0m:[93m57[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m58[0m                         <span className="header-icon">≡ƒÆ░</span>
+[7m  [0m [91m                                                        ~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m59[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m59[0m                         <h1>Expense Tracker</h1>
+[7m  [0m [91m                        ~~~~[0m
+
+[96msrc/App.tsx[0m:[93m59[0m:[93m44[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m59[0m                         <h1>Expense Tracker</h1>
+[7m  [0m [91m                                           ~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m60[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m60[0m                     </div>
+[7m  [0m [91m                    ~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m61[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m61[0m                     <div className="total-display" id="total-display">
+[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m62[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m62[0m                         <span className="total-label">Total</span>
+[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m62[0m:[93m60[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m62[0m                         <span className="total-label">Total</span>
+[7m  [0m [91m                                                           ~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m63[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m63[0m                         <span className="total-amount">Γé╣{total.toFixed(2)}</span>
+[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m63[0m:[93m75[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m63[0m                         <span className="total-amount">Γé╣{total.toFixed(2)}</span>
+[7m  [0m [91m                                                                          ~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m64[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m64[0m                     </div>
+[7m  [0m [91m                    ~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m65[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m65[0m                 </div>
+[7m  [0m [91m                ~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m66[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m66[0m             </header>
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m68[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m68[0m             <main className="app-main">
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m69[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m69[0m                 <section className="form-section">
+[7m  [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m71[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m71[0m                 </section>
+[7m  [0m [91m                ~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m73[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m73[0m                 <section className="list-section">
+[7m  [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m74[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m74[0m                     <div className="list-header">
+[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m75[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m75[0m                         <h2>Expenses</h2>
+[7m  [0m [91m                        ~~~~[0m
+
+[96msrc/App.tsx[0m:[93m75[0m:[93m37[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m75[0m                         <h2>Expenses</h2>
+[7m  [0m [91m                                    ~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m80[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m80[0m                     </div>
+[7m  [0m [91m                    ~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m82[0m:[93m31[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m82[0m                     {error && <div className="error-banner">{error}</div>}
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m82[0m:[93m68[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m82[0m                     {error && <div className="error-banner">{error}</div>}
+[7m  [0m [91m                                                                   ~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m85[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m85[0m                         <div className="loading-state">
+[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m86[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m86[0m                             <div className="loading-spinner" />
+[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m87[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m87[0m                             <p>Loading expenses...</p>
+[7m  [0m [91m                            ~~~[0m
+
+[96msrc/App.tsx[0m:[93m87[0m:[93m51[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m87[0m                             <p>Loading expenses...</p>
+[7m  [0m [91m                                                  ~~~~[0m
+
+[96msrc/App.tsx[0m:[93m88[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m88[0m                         </div>
+[7m  [0m [91m                        ~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m92[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m92[0m                 </section>
+[7m  [0m [91m                ~~~~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m93[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m93[0m             </main>
+[7m  [0m [91m            ~~~~~~~[0m
+
+[96msrc/App.tsx[0m:[93m94[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m94[0m         </div>
+[7m  [0m [91m        ~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m19[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m19[0m         <div className="category-filter">
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m19[0m:[93m9[0m - [91merror[0m[90m TS2875: [0mThis JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+
+[7m 19[0m         <div className="category-filter">
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 20[0m             <label htmlFor="filter-category">Filter by Category</label>
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 32[0m             </select>
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 33[0m         </div>
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m20[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m20[0m             <label htmlFor="filter-category">Filter by Category</label>
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m20[0m:[93m64[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m20[0m             <label htmlFor="filter-category">Filter by Category</label>
+[7m  [0m [91m                                                               ~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m 21[0m             <select
+[7m   [0m [91m            ~~~~~~~[0m
+[7m 22[0m                 id="filter-category"
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 24[0m                 onChange={(e) => onChange(e.target.value)}
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 25[0m             >
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m24[0m:[93m28[0m - [91merror[0m[90m TS7006: [0mParameter 'e' implicitly has an 'any' type.
+
+[7m24[0m                 onChange={(e) => onChange(e.target.value)}
+[7m  [0m [91m                           ~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m26[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m26[0m                 <option value="">All Categories</option>
+[7m  [0m [91m                ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m26[0m:[93m48[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m26[0m                 <option value="">All Categories</option>
+[7m  [0m [91m                                               ~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m28[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m28[0m                     <option key={cat} value={cat}>
+[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m30[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m30[0m                     </option>
+[7m  [0m [91m                    ~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m32[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m32[0m             </select>
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+[96msrc/components/CategoryFilter.tsx[0m:[93m33[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m33[0m         </div>
+[7m  [0m [91m        ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m1[0m:[93m47[0m - [91merror[0m[90m TS2307: [0mCannot find module 'react' or its corresponding type declarations.
+
+[7m1[0m import { useState, useCallback, useRef } from "react";
+[7m [0m [91m                                              ~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m2[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module 'uuid' or its corresponding type declarations.
+
+[7m2[0m import { v4 as uuidv4 } from "uuid";
+[7m [0m [91m                             ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m43[0m:[93m19[0m - [91merror[0m[90m TS2503: [0mCannot find namespace 'React'.
+
+[7m43[0m         async (e: React.FormEvent) => {
+[7m  [0m [91m                  ~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m100[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m100[0m         <form className="expense-form" onSubmit={handleSubmit}>
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m100[0m:[93m9[0m - [91merror[0m[90m TS2875: [0mThis JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+
+[7m100[0m         <form className="expense-form" onSubmit={handleSubmit}>
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m101[0m             <h2>Add Expense</h2>
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m181[0m             </button>
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[7m182[0m         </form>
+[7m   [0m [91m~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m101[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m101[0m             <h2>Add Expense</h2>
+[7m   [0m [91m            ~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m101[0m:[93m28[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m101[0m             <h2>Add Expense</h2>
+[7m   [0m [91m                           ~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m103[0m:[93m23[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m103[0m             {error && <div className="form-error">{error}</div>}
+[7m   [0m [91m                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m103[0m:[93m58[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m103[0m             {error && <div className="form-error">{error}</div>}
+[7m   [0m [91m                                                         ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m104[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m104[0m             {success && <div className="form-success">Expense added!</div>}
+[7m   [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m104[0m:[93m69[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m104[0m             {success && <div className="form-success">Expense added!</div>}
+[7m   [0m [91m                                                                    ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m106[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m106[0m             <div className="form-grid">
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m107[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m107[0m                 <div className="form-group">
+[7m   [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m108[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m108[0m                     <label htmlFor="expense-amount">Amount (Γé╣)</label>
+[7m   [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m108[0m:[93m63[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m108[0m                     <label htmlFor="expense-amount">Amount (Γé╣)</label>
+[7m   [0m [91m                                                              ~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m109[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m109[0m                     <input
+[7m   [0m [91m                    ~~~~~~[0m
+[7m110[0m                         id="expense-amount"
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m118[0m                         required
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m119[0m                     />
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m116[0m:[93m36[0m - [91merror[0m[90m TS7006: [0mParameter 'e' implicitly has an 'any' type.
+
+[7m116[0m                         onChange={(e) => setAmount(e.target.value)}
+[7m   [0m [91m                                   ~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m120[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m120[0m                 </div>
+[7m   [0m [91m                ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m122[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m122[0m                 <div className="form-group">
+[7m   [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m123[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m123[0m                     <label htmlFor="expense-category">Category</label>
+[7m   [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m123[0m:[93m63[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m123[0m                     <label htmlFor="expense-category">Category</label>
+[7m   [0m [91m                                                              ~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m124[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m124[0m                     <select
+[7m   [0m [91m                    ~~~~~~~[0m
+[7m125[0m                         id="expense-category"
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m129[0m                         required
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m130[0m                     >
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m127[0m:[93m36[0m - [91merror[0m[90m TS7006: [0mParameter 'e' implicitly has an 'any' type.
+
+[7m127[0m                         onChange={(e) => setCategory(e.target.value)}
+[7m   [0m [91m                                   ~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m131[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m131[0m                         <option value="" disabled>
+[7m   [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m133[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m133[0m                         </option>
+[7m   [0m [91m                        ~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m135[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m135[0m                             <option key={cat} value={cat}>
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m137[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m137[0m                             </option>
+[7m   [0m [91m                            ~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m139[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m139[0m                     </select>
+[7m   [0m [91m                    ~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m140[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m140[0m                 </div>
+[7m   [0m [91m                ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m142[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m142[0m                 <div className="form-group">
+[7m   [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m143[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m143[0m                     <label htmlFor="expense-date">Date</label>
+[7m   [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m143[0m:[93m55[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m143[0m                     <label htmlFor="expense-date">Date</label>
+[7m   [0m [91m                                                      ~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m144[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m144[0m                     <input
+[7m   [0m [91m                    ~~~~~~[0m
+[7m145[0m                         id="expense-date"
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m150[0m                         required
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m151[0m                     />
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m148[0m:[93m36[0m - [91merror[0m[90m TS7006: [0mParameter 'e' implicitly has an 'any' type.
+
+[7m148[0m                         onChange={(e) => setDate(e.target.value)}
+[7m   [0m [91m                                   ~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m152[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m152[0m                 </div>
+[7m   [0m [91m                ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m154[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m154[0m                 <div className="form-group full-width">
+[7m   [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m155[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m155[0m                     <label htmlFor="expense-description">Description</label>
+[7m   [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m155[0m:[93m69[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m155[0m                     <label htmlFor="expense-description">Description</label>
+[7m   [0m [91m                                                                    ~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m156[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m156[0m                     <input
+[7m   [0m [91m                    ~~~~~~[0m
+[7m157[0m                         id="expense-description"
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m162[0m                         disabled={submitting}
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m163[0m                     />
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m161[0m:[93m36[0m - [91merror[0m[90m TS7006: [0mParameter 'e' implicitly has an 'any' type.
+
+[7m161[0m                         onChange={(e) => setDescription(e.target.value)}
+[7m   [0m [91m                                   ~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m164[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m164[0m                 </div>
+[7m   [0m [91m                ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m165[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m165[0m             </div>
+[7m   [0m [91m            ~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m167[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m167[0m             <button
+[7m   [0m [91m            ~~~~~~~[0m
+[7m168[0m                 id="submit-expense"
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m171[0m                 disabled={submitting}
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m172[0m             >
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m174[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m174[0m                     <span className="btn-loading">
+[7m   [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m175[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m175[0m                         <span className="spinner" />
+[7m   [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m177[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m177[0m                     </span>
+[7m   [0m [91m                    ~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m181[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m181[0m             </button>
+[7m   [0m [91m            ~~~~~~~~~[0m
+
+[96msrc/components/ExpenseForm.tsx[0m:[93m182[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m182[0m         </form>
+[7m   [0m [91m        ~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m10[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m10[0m             <div className="empty-state">
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m10[0m:[93m13[0m - [91merror[0m[90m TS2875: [0mThis JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+
+[7m10[0m             <div className="empty-state">
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m11[0m                 <div className="empty-icon">≡ƒôï</div>
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m12[0m                 <p>No expenses yet. Add your first expense above!</p>
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m13[0m             </div>
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m11[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m11[0m                 <div className="empty-icon">≡ƒôï</div>
+[7m  [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m11[0m:[93m47[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m11[0m                 <div className="empty-icon">≡ƒôï</div>
+[7m  [0m [91m                                              ~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m12[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m12[0m                 <p>No expenses yet. Add your first expense above!</p>
+[7m  [0m [91m                ~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m12[0m:[93m66[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m12[0m                 <p>No expenses yet. Add your first expense above!</p>
+[7m  [0m [91m                                                                 ~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m13[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m13[0m             </div>
+[7m  [0m [91m            ~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m18[0m         <div className="table-wrapper">
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m19[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m19[0m             <table className="expense-table" id="expense-table">
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m20[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m20[0m                 <thead>
+[7m  [0m [91m                ~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m21[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m21[0m                     <tr>
+[7m  [0m [91m                    ~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m22[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m22[0m                         <th>Date</th>
+[7m  [0m [91m                        ~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m22[0m:[93m33[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m22[0m                         <th>Date</th>
+[7m  [0m [91m                                ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m23[0m                         <th>Category</th>
+[7m  [0m [91m                        ~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m23[0m:[93m37[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m23[0m                         <th>Category</th>
+[7m  [0m [91m                                    ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m24[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m24[0m                         <th>Description</th>
+[7m  [0m [91m                        ~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m24[0m:[93m40[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m24[0m                         <th>Description</th>
+[7m  [0m [91m                                       ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m25[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m25[0m                         <th className="amount-col">Amount</th>
+[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m25[0m:[93m58[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m25[0m                         <th className="amount-col">Amount</th>
+[7m  [0m [91m                                                         ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m26[0m:[93m21[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m26[0m                     </tr>
+[7m  [0m [91m                    ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m27[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m27[0m                 </thead>
+[7m  [0m [91m                ~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m28[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m28[0m                 <tbody>
+[7m  [0m [91m                ~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m30[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m30[0m                         <tr key={expense.id}>
+[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m31[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m31[0m                             <td className="date-cell">
+[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m37[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m37[0m                             </td>
+[7m  [0m [91m                            ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m38[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m38[0m                             <td>
+[7m  [0m [91m                            ~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m39[0m:[93m33[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m39[0m                                 <span className="category-badge">{expense.category}</span>
+[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m39[0m:[93m84[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m39[0m                                 <span className="category-badge">{expense.category}</span>
+[7m  [0m [91m                                                                                   ~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m40[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m40[0m                             </td>
+[7m  [0m [91m                            ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m41[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m41[0m                             <td className="description-cell">
+[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m43[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m43[0m                             </td>
+[7m  [0m [91m                            ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m44[0m:[93m29[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m44[0m                             <td className="amount-cell">Γé╣{expense.amount.toFixed(2)}</td>
+[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m44[0m:[93m85[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m44[0m                             <td className="amount-cell">Γé╣{expense.amount.toFixed(2)}</td>
+[7m  [0m [91m                                                                                    ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m45[0m:[93m25[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m45[0m                         </tr>
+[7m  [0m [91m                        ~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m47[0m:[93m17[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m47[0m                 </tbody>
+[7m  [0m [91m                ~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m48[0m:[93m13[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m48[0m             </table>
+[7m  [0m [91m            ~~~~~~~~[0m
+
+[96msrc/components/ExpenseTable.tsx[0m:[93m49[0m:[93m9[0m - [91merror[0m[90m TS7026: [0mJSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[7m49[0m         </div>
+[7m  [0m [91m        ~~~~~~[0m
+
+[96msrc/main.tsx[0m:[93m1[0m:[93m19[0m - [91merror[0m[90m TS2307: [0mCannot find module 'react' or its corresponding type declarations.
+
+[7m1[0m import React from "react";
+[7m [0m [91m                  ~~~~~~~[0m
+
+[96msrc/main.tsx[0m:[93m2[0m:[93m22[0m - [91merror[0m[90m TS2307: [0mCannot find module 'react-dom/client' or its corresponding type declarations.
+
+[7m2[0m import ReactDOM from "react-dom/client";
+[7m [0m [91m                     ~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/main.tsx[0m:[93m4[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module './index.css' or its corresponding type declarations.
+
+[7m4[0m import "./index.css";
+[7m [0m [91m       ~~~~~~~~~~~~~[0m
+
+[96msrc/main.tsx[0m:[93m7[0m:[93m5[0m - [91merror[0m[90m TS2875: [0mThis JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+
+[7m7[0m     <React.StrictMode>
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~[0m
+[7m8[0m         <App />
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+[7m9[0m     </React.StrictMode>
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Found 140 errors in 6 files.
+
+Errors  Files
+     2  src/api/expenses.ts[90m:1[0m
+    37  src/App.tsx[90m:1[0m
+    12  src/components/CategoryFilter.tsx[90m:19[0m
+    48  src/components/ExpenseForm.tsx[90m:1[0m
+    37  src/components/ExpenseTable.tsx[90m:10[0m
+     4  src/main.tsx[90m:1[0m

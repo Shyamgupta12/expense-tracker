@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Expense {
+  id          String   @id @default(uuid())
+  amountPaise Int
+  category    String
+  description String   @default("")
+  date        DateTime
+  createdAt   DateTime @default(now())
+}
+
+model IdempotencyRecord {
+  id           String   @id @default(uuid())
+  key          String   @unique
+  statusCode   Int
+  responseBody String
+  createdAt    DateTime @default(now())
+}
